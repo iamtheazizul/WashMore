@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+}
+
+.child-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.background-image-div {
+    /* Set the desired width and height for your div */
+    width: 500px;
+    height: 300px;
+
+    /* Set the background image using the background-image property */
+    background-image: url('20827.png');
+
+    /* Optionally, you can set the background size, position, and repeat properties */
+    background-size: contain; /* "cover" stretches the image to cover the entire div */
+    background-position: center center; /* Center the background image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
